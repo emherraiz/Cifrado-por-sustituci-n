@@ -18,8 +18,9 @@ def atbash(sequence: str) -> str:
 
 
 if __name__ == "__main__":
-    Texto_encriptado = 
-    print(f'Texto encriptado: ')
+    Texto_encriptado = 'GSVUOZTRHHZBDVZIVXIZAB'
+    print(f'Texto encriptado: {Texto_encriptado}')
+    print(f'Texto desencriptado: {atbash(Texto_encriptado)}')
 
 
 # Codigo sacado de https://the-algorithms.com/es/algorithm/atbash
